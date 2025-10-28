@@ -2,9 +2,11 @@
 
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 
-Este é um projeto de website front-end para a ONG fictícia **Laços do Bem**, com foco na arrecadação de alimentos para famílias em situação precária nas cidades satélites do DF.
+Este é um projeto de website front-end para a ONG fictícia **Laços do Bem**.
 
-O projeto foi desenvolvido como um trabalho acadêmico, seguindo as especificações técnicas da disciplina, com foco na evolução de um website, desde sua estrutura semântica (HTML) até a estilização avançada (CSS) e interatividade (JavaScript).
+A missão central do projeto é criar um portal de comunicação e arrecadação para combater a fome e garantir a segurança alimentar de pessoas e famílias em situação precária nas cidades satélites do Distrito Federal.
+
+O projeto foi desenvolvido como um trabalho acadêmico, seguindo as especificações técnicas da disciplina, com foco na evolução de um website, desde sua estrutura semântica (HTML puro) até a estilização avançada (CSS) e interatividade (JavaScript).
 
 ## 👨‍🏫 Para o Professor: Navegando pelas Etapas
 
@@ -40,26 +42,11 @@ Para avaliar cada fase, por favor, troque de branch usando o menu no canto super
     * **Flexbox:** Para alinhamento de componentes internos (como a galeria e navegação).
     * **Media Queries:** 3 breakpoints para design responsivo.
     * **Estados de Interface:** Estilização de botões (`:hover`, `:focus`, `:active`).
+    * **Componentes:** Estrutura para Submenu (Dropdown) e Badges/Tags.
 * **JavaScript (ES6+)** (Será usado na Etapa 3 para menu, submenu e gráfico)
 * **Chart.js** (Será usado na Etapa 3)
 * **Git & GitHub** (Versionamento e organização por branches)
 
 ## 🚀 Como Executar Localmente (Versão Final)
 
-1.  Clone este repositório:
-    ```bash
-    git clone [https://github.com/JessicaBAlves/Ong-Lacos-do-Bem.git](https://github.com/JessicaBAlves/Ong-Lacos-do-Bem.git)
-    ```
-2.  Entre na pasta do projeto:
-    ```bash
-    cd Ong-Lacos-do-Bem
-    ```
-3.  Mude para a branch da versão final:
-    ```bash
-    git checkout etapa3-js
-    ```
-4.  Abra o arquivo `index.html` no seu navegador (com o Live Server).
-
-## 👩‍💻 Autora
-
-* **Jéssica B. Alves**
+1.  Clone este reposit
