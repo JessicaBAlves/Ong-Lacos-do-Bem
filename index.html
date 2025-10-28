@@ -9,17 +9,20 @@
 <body>
 
     <header>
-        <h1>ONG Laços do Bem</h1>
+        <div class="container-header"> 
+            <img src="Imagens/logo_lacos_do_bem.png" alt="Logo Laços do Bem" class="logo-ong">
+            <h1>ONG Laços do Bem</h1>
+        </div>
     </header>
 
-   <nav>
+    <nav>
         <button class="menu-hamburger" aria-label="Abrir menu">☰</button>
         <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="projeto.html">O Projeto</a></li>
-            
             <li class="dropdown">
-                <a href="cadastro.html">Participe ▼</a> <ul class="submenu">
+                <a href="cadastro.html">Participe ▼</a>
+                <ul class="submenu">
                     <li><a href="cadastro.html#formulario-voluntariado">Seja Voluntário</a></li>
                     <li><a href="cadastro.html#formulario-doacoes">Faça uma Doação</a></li>
                 </ul>
@@ -28,16 +31,18 @@
     </nav>
 
     <main>
+
         <section id="apresentacao">
             <h2>Dignidade na mesa para quem mais precisa no DF</h2>
             <p>
-                Somos a **Laços do Bem**, uma organização sem fins lucrativos com uma missão clara: 
-                combater a fome e garantir a segurança alimentar de pessoas e famílias em situação precária
+                A <strong>Laços do Bem</strong> é uma organização sem fins lucrativos que nasceu do desejo de transformar empatia em ação. 
+                Nossa missão é combater a fome e garantir a segurança alimentar de pessoas e famílias em situação de vulnerabilidade 
                 nas cidades satélites do Distrito Federal.
             </p>
             <p>
-                Acreditamos que o acesso à alimentação básica é um direito humano e o primeiro passo para
-                a dignidade. Nosso foco é levar o básico para a mesa de quem mais precisa.
+                Acreditamos que o acesso à alimentação é um direito fundamental e o primeiro passo para reconstruir a dignidade. 
+                Cada cesta entregue representa mais do que comida na mesa — é um gesto de esperança, cuidado e solidariedade 
+                com quem enfrenta dias difíceis. Nosso compromisso é levar o básico para quem mais precisa, com amor e respeito.
             </p>
         </section>
 
@@ -48,9 +53,24 @@
 
         <section id="newsletter">
             <h2>Receba nossas atualizações</h2>
-            <p>Saiba mais sobre nossas ações e como sua ajuda está sendo usada.</p>
+            <p>
+                Acompanhe de perto nossas ações e veja como cada contribuição faz diferença na vida de quem mais precisa. 
+                Transparência e solidariedade caminham juntas no Laços do Bem.
+            </p>
             <form action="#" method="post">
-                </form>
+                <fieldset>
+                    <legend>Cadastro Rápido</legend>
+                    <div>
+                        <label for="nome-news">Nome:</label>
+                        <input type="text" id="nome-news" name="nome_newsletter">
+                    </div>
+                    <div>
+                        <label for="email-news">E-mail:</label>
+                        <input type="email" id="email-news" name="email_newsletter" required>
+                    </div>
+                    <button type="submit">Inscrever-se</button>
+                </fieldset>
+            </form>
         </section>
 
     </main>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,17 +10,19 @@
 <body>
 
     <header>
-        <h1>O Projeto</h1>
+        <div class="container-header"> 
+            <img src="Imagens/logo_lacos_do_bem.png" alt="Logo Laços do Bem" class="logo-ong">
+            <h1>ONG Laços do Bem</h1>
+        </div>
     </header>
-
-   <nav>
+    <nav>
         <button class="menu-hamburger" aria-label="Abrir menu">☰</button>
         <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="projeto.html">O Projeto</a></li>
-            
             <li class="dropdown">
-                <a href="cadastro.html">Participe ▼</a> <ul class="submenu">
+                <a href="cadastro.html">Participe ▼</a>
+                <ul class="submenu">
                     <li><a href="cadastro.html#formulario-voluntariado">Seja Voluntário</a></li>
                     <li><a href="cadastro.html#formulario-doacoes">Faça uma Doação</a></li>
                 </ul>
@@ -28,57 +31,101 @@
     </nav>
 
     <main>
+
         <section id="historia">
-             <h2>Nossa História</h2>
-             <p>A Laços do Bem nasceu da urgência de combater a fome...</p>
+            <h2>Nossa História: Um Laço de Esperança</h2>
+             <p>
+                A <strong>Laços do Bem</strong> nasceu em 2022, no coração de um grupo de amigos que se uniu diante da
+                realidade dura da fome em sua própria comunidade... 
+            </p>
+            <p>
+                Com o tempo, o projeto cresceu — novas mãos se juntaram, empresas locais passaram a colaborar...
+            </p>
+            <p>
+                Nosso compromisso vai além da doação: buscamos construir uma rede permanente de apoio...
+            </p>
         </section>
 
-       <section id="nosso-projeto">
+        <section id="nosso-projeto">
             <h2>
                 Projeto Dignidade na Mesa 
                 <span class="badge">Ação Contínua</span>
             </h2>
             <p>
-                Nosso único e principal projeto é o <strong>"Dignidade na Mesa"</strong>...
+                Todo nosso esforço se concentra no **"Projeto Dignidade na Mesa"**...
             </p>
-            </section>
-            
+            <ul>
+                <li>
+                    <strong>Arrecadação: Onde a Comunidade se Une</strong><br>
+                    Nossa força começa com você...
+                </li>
+                <li>
+                    <strong>Logística: O Cuidado por Trás da Cesta</strong><br>
+                    Receber as doações é só o começo...
+                </li>
+                <li>
+                    <strong>Distribuição: O Encontro que Transforma</strong><br>
+                    Este é o momento em que o "laço" se completa...
+                </li>
+            </ul>
+        </section>
+
         <section id="galeria">
-            <h2>Nossas Ações</h2>
+            <h2>Nossas Ações em Imagens</h2>
             
             <figure>
                 <img src="Imagens/doacao_familia.jpg" alt="Voluntário entregando doação de alimentos para família." width="300">
                 <figcaption>
-                    <strong>Mais que uma cesta:</strong> é a garantia da dignidade na mesa 
-                    de uma das famílias que apoiamos em nossas entregas.
+                    <strong>Mais que uma cesta:</strong> é a garantia da dignidade...
                 </figcaption>
             </figure>
             
             <figure>
-                <img src="Imagens/doacao_logistica.jpg" alt="Voluntários separando alimentos para doação." width="300">
+                 <img src="Imagens/doacao_logistica.jpg" alt="Voluntários separando alimentos para doação." width="300">
                 <figcaption>
-                    <strong>O coração do projeto:</strong> nossos voluntários em ação na 
-                    triagem e montagem de cada cesta básica no centro de distribuição.
+                    <strong>O coração do projeto:</strong> nossos voluntários em ação...
                 </figcaption>
             </figure>
         </section>
 
+
         <section id="transparencia">
-            <h2>Transparência</h2>
-             <p>Aqui você vê como cada doação é utilizada...</p>
+            <h2>Transparência: Nosso Compromisso</h2>
+            <p>A confiança é a base do nosso trabalho...</p>
+            
             <table>
-                 </table>
+                 <caption>Relatórios Financeiros e de Atividades</caption>
+                 <thead>
+                     <tr>
+                         <th>Ano</th>
+                         <th>Relatório</th>
+                         <th>Link (PDF)</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>2024</td>
+                         <td>Relatório Semestral (S1)</td>
+                         <td><a href="Docs/relatorio-2024-s1.pdf">Baixar</a></td> 
+                     </tr>
+                     <tr>
+                         <td>2023</td>
+                         <td>Relatório Anual de Atividades</td>
+                         <td><a href="Docs/relatorio-anual-2023.pdf">Baixar</a></td> 
+                     </tr>
+                 </tbody>
+            </table>
 
             <h3>Gráfico de Investimento (Exemplo)</h3>
-            <p>Veja como os recursos são aplicados...</p>
+            <p>Veja como os recursos são aplicados (dados do último semestre).</p>
+            
             <canvas id="graficoTransparencia" width="400" height="200"></canvas>
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2024 Laços do Bem. Projeto de faculdade.</p>
-    </footer>
+        <p>&copy; 2022-2024 Laços do Bem. Projeto de faculdade.</p> </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="JS/script.js"></script>
