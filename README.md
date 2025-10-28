@@ -49,4 +49,20 @@ Para avaliar cada fase, por favor, troque de branch usando o menu no canto super
 
 ## 🚀 Como Executar Localmente (Versão Final)
 
-1.  Clone este reposit
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/JessicaBAlves/Ong-Lacos-do-Bem.git](https://github.com/JessicaBAlves/Ong-Lacos-do-Bem.git)
+    ```
+2.  Entre na pasta do projeto:
+    ```bash
+    cd Ong-Lacos-do-Bem
+    ```
+3.  Mude para a branch da versão final:
+    ```bash
+    git checkout etapa3-js
+    ```
+4.  Abra o arquivo `index.html` no seu navegador (com o Live Server).
+
+## 👩‍💻 Autora
+
+* **Jéssica B. Alves**
