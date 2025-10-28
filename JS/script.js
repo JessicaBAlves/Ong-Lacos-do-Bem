@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     
-    // --- MENU & SUBMENU ---
+    // --- 1. MENU & SUBMENU ---
     const menuButton = document.querySelector('.menu-hamburger');
     const menuList = document.querySelector('nav ul'); 
     const dropdownToggle = document.querySelector('.dropdown > a'); 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // --- GRÁFICO ---
+    // --- 2. GRÁFICO ---
     const ctx = document.getElementById('graficoTransparencia');
 
     if (ctx) {
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // --- MÁSCARAS DE FORMULÁRIO ---
+    // --- 3. MÁSCARAS DE FORMULÁRIO ---
     function aplicarMascara(event) {
         let input = event.target;
         let valor = input.value.replace(/\D/g, ''); 
@@ -109,6 +109,39 @@ document.addEventListener('DOMContentLoaded', function() {
         inputCpfVol.setAttribute('maxlength', '14'); 
         inputCpfVol.setAttribute('data-mascara', '###.###.###-##');
         inputCpfVol.addEventListener('input', aplicarMascara);
+    }
+
+    // --- 4. LOCAL STORAGE (Newsletter) ---
+    const formNewsletter = document.querySelector('#newsletter form');
+    const inputEmailNewsletter = document.getElementById('email-news');
+
+    if (formNewsletter && inputEmailNewsletter) {
+        formNewsletter.addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio padrão
+
+            const email = inputEmailNewsletter.value;
+
+            if (email) {
+                // Salva no Local Storage
+                localStorage.setItem('newsletterEmail', email); 
+                
+                // Exibe confirmação (simples)
+                alert('Obrigado por se inscrever! Seu e-mail ' + email + ' foi registrado.'); 
+                
+                // Limpa o campo (opcional)
+                inputEmailNewsletter.value = ''; 
+            } else {
+                alert('Por favor, digite um e-mail válido.');
+            }
+        });
+
+        // Opcional: Recuperar e mostrar o e-mail salvo ao carregar a página
+        const emailSalvo = localStorage.getItem('newsletterEmail');
+        if(emailSalvo) {
+            console.log('E-mail já cadastrado na newsletter:', emailSalvo);
+            // Pré-preencher o campo ou mostrar uma mensagem
+            // inputEmailNewsletter.value = emailSalvo; 
+        }
     }
 
 }); // Fim do 'DOMContentLoaded'
