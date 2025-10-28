@@ -2,11 +2,9 @@
 
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 
-Este é um projeto de website front-end para a ONG fictícia **Laços do Bem**.
+Este é um projeto de website front-end para a ONG fictícia **Laços do Bem**, com foco na arrecadação de alimentos para famílias em situação precária nas cidades satélites do DF.
 
-A missão central do projeto é criar um portal de comunicação e arrecadação para combater a fome e garantir a segurança alimentar de pessoas e famílias em situação precária nas cidades satélites do Distrito Federal.
-
-O projeto foi desenvolvido como um trabalho acadêmico, com foco na evolução de um website, desde sua estrutura semântica (HTML puro) até a estilização responsiva (CSS) e interatividade (JavaScript).
+O projeto foi desenvolvido como um trabalho acadêmico, seguindo as especificações técnicas da disciplina, com foco na evolução de um website, desde sua estrutura semântica (HTML) até a estilização avançada (CSS) e interatividade (JavaScript).
 
 ## 👨‍🏫 Para o Professor: Navegando pelas Etapas
 
@@ -14,51 +12,53 @@ Este repositório está organizado em **três branches**, cada uma representando
 
 Para avaliar cada fase, por favor, troque de branch usando o menu no canto superior esquerdo do GitHub.
 
-* **[➡️ Etapa 1: HTML Puro](https://github.com/JessicaBAlves/ong-lacos-do-bem/tree/etapa1-html)**
+* **[➡️ Etapa 1: HTML Puro](https://github.com/JessicaBAlves/Ong-Lacos-do-Bem/tree/etapa1-html)**
     * **Branch:** `etapa1-html`
-    * **Conteúdo:** Apenas a estrutura semântica (esqueleto) do site em HTML5. Nenhum CSS ou JavaScript está ativo.
+    * **Conteúdo:** Apenas a estrutura semântica (esqueleto) do site em HTML5.
 
-* **[➡️ Etapa 2: HTML + CSS](https://github.com/JessicaBAlves/ong-lacos-do-bem/tree/etapa2-css)**
+* **[➡️ Etapa 2: HTML + CSS](https://github.com/JessicaBAlves/Ong-Lacos-do-Bem/tree/etapa2-css)**
     * **Branch:** `etapa2-css`
-    * **Conteúdo:** O site completo com layout, cores, imagens e design responsivo (CSS). O JavaScript ainda está inativo.
+    * **Conteúdo:** O site completo com layout, cores, imagens e design responsivo, seguindo as especificações técnicas de CSS.
 
-* **[➡️ Etapa 3: HTML + CSS + JS (Completo)](https://github.com/JessicaBAlves/ong-lacos-do-bem/tree/etapa3-js)**
+* **[➡️ Etapa 3: HTML + CSS + JS (Completo)](https://github.com/JessicaBAlves/Ong-Lacos-do-Bem/tree/etapa3-js)**
     * **Branch:** `etapa3-js`
-    * **Conteúdo:** O projeto final e 100% funcional. O JavaScript está ativo, habilitando o menu hambúrguer e o gráfico interativo de transparência.
+    * **Conteúdo:** O projeto final e 100% funcional, com JavaScript ativo.
 
-## ✨ Funcionalidades Principais (na Etapa 3)
+## ✨ Funcionalidades Principais
 
-* **Site Focado:** 3 páginas com navegação clara: `index.html` (Apresentação), `projeto.html` (Detalhes da Ação) e `cadastro.html` (Formulários de Participação).
-* **Missão Clara:** Toda a comunicação é voltada para a arrecadação de alimentos.
-* **Design Responsivo:** O layout se adapta perfeitamente a desktops, tablets e celulares.
-* **Menu Hambúrguer:** Menu de navegação funcional em telas pequenas, criado com JavaScript.
-* **Gráfico Interativo:** Na página `projeto.html`, um gráfico de rosca (doughnut) exibe os dados de transparência da ONG, utilizando a biblioteca **Chart.js**, com foco nos gastos com alimentos e logística.
+* **Site Focado:** 3 páginas com navegação clara (`index.html`, `projeto.html`, `cadastro.html`).
+* **Design Responsivo:** O layout se adapta a 3 breakpoints (Desktop, Tablet, Mobile).
+* **Interatividade (Etapa 3):** Menu hambúrguer funcional, submenu dropdown e gráfico interativo.
 * **Formulários Específicos:** Formulários de voluntariado e doação 100% focados na arrecadação de alimentos.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas (Revisado)
 
 * **HTML5** (Estrutura semântica)
-* **CSS3** (Flexbox, Media Queries para responsividade)
-* **JavaScript (ES6+)** (Manipulação do DOM para o menu)
-* **Chart.js** (Biblioteca para o gráfico de transparência)
+* **CSS3 (Foco nas Especificações Técnicas):**
+    * **CSS Variables:** Para um Sistema de Design centralizado (cores, fontes, espaçamento).
+    * **CSS Grid:** Para o layout principal da página (header, main, footer).
+    * **Flexbox:** Para alinhamento de componentes internos (como a galeria e navegação).
+    * **Media Queries:** 3 breakpoints para design responsivo.
+    * **Estados de Interface:** Estilização de botões (`:hover`, `:focus`, `:active`).
+* **JavaScript (ES6+)** (Será usado na Etapa 3 para menu, submenu e gráfico)
+* **Chart.js** (Será usado na Etapa 3)
 * **Git & GitHub** (Versionamento e organização por branches)
 
 ## 🚀 Como Executar Localmente (Versão Final)
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/JessicaBAlves/ong-lacos-do-bem.git](https://github.com/JessicaBAlves/ong-lacos-do-bem.git)
+    git clone [https://github.com/JessicaBAlves/Ong-Lacos-do-Bem.git](https://github.com/JessicaBAlves/Ong-Lacos-do-Bem.git)
     ```
 2.  Entre na pasta do projeto:
     ```bash
-    cd ong-lacos-do-bem
+    cd Ong-Lacos-do-Bem
     ```
 3.  Mude para a branch da versão final:
     ```bash
     git checkout etapa3-js
     ```
-4.  Abra o arquivo `HTML5/index.html` no seu navegador.
-    * (Recomendado: Use a extensão **Live Server** do VSCode).
+4.  Abra o arquivo `index.html` no seu navegador (com o Live Server).
 
 ## 👩‍💻 Autora
 
