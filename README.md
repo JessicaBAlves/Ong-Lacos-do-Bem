@@ -1,5 +1,13 @@
 # Projeto ONG Laços do Bem (Trabalho Acadêmico)
 
+## 🚀 Site Publicado (Deploy)
+
+**O projeto final (Etapa 3) está disponível publicamente no link abaixo:**
+
+### [https://JessicaBAlves.github.io/Ong-Lacos-do-Bem/](https://JessicaBAlves.github.io/Ong-Lacos-do-Bem/)
+
+---
+
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen)
 
 Este é um projeto de website front-end para a ONG fictícia **Laços do Bem**.
@@ -43,8 +51,11 @@ Para avaliar cada fase, por favor, troque de branch usando o menu no canto super
     * **Media Queries:** 3 breakpoints para design responsivo.
     * **Estados de Interface:** Estilização de botões (`:hover`, `:focus`, `:active`).
     * **Componentes:** Estrutura para Submenu (Dropdown) e Badges/Tags.
-* **JavaScript (ES6+)** (Será usado na Etapa 3 para menu, submenu e gráfico)
-* **Chart.js** (Será usado na Etapa 3)
+* **JavaScript (ES6+)**
+    * Manipulação do DOM (Menu, Submenu).
+    * Event Listeners (Formulários, Máscaras).
+    * Armazenamento Local (Local Storage) para Newsletter.
+* **Chart.js** (Gráfico de transparência)
 * **Git & GitHub** (Versionamento e organização por branches)
 
 ## 🚀 Como Executar Localmente (Versão Final)
